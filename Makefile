@@ -1,5 +1,5 @@
 
-BINARY_NAME=test
+BINARY_NAME=$(notdir $(shell pwd))
 .DEFAULT := run
 
 build:
